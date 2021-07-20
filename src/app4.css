@@ -1,0 +1,19 @@
+#app4 .round{
+border: 1px solid black;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-top: 80px;
+margin-left: 100px;
+}
+@keyframes x {
+    0%{background:orangered}
+    10%{background:orange}
+    30%{background:green}
+    50%{background:indigo}
+    70%{background: lemonchiffon}
+    100%{background:lightgreen}
+}
+#app4 .round.active{
+  animation:  x 7s infinite alternate linear;
+}
